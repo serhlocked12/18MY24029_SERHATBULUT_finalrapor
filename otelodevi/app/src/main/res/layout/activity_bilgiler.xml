@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bilgiler"
+    android:background="@drawable/orange">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BİLGİLER :"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="636dp"
+                android:text="*Kahvaltı ve KDV dahil oda fiyatlarımız 2 kişi içindir. *Rezervasyonların kesinleşmesi için en geç 2 iş günü içerisinde toplam konaklama bedelinin % 30 u banka hesabımıza havale/eft yapılarak veya kredi kartı ile mail order olarak ödenmesi gerekmektedir. *Kahvaltı saatlerimiz sabah 08:00-11:00 arasındadır. *Odalarımıza giriş saati 14:00 çıkış saati 12:00 dır. *Villa Tn sadece 6 özel odadan oluştuğu için rezervasyon iptalleriniz için aşağıdaki notları anlayışla karşılayacağınızı umuyoruz; *1 hafta önce yapılan rezervasyon iptali için 1 gecelik ücretin %25’i, 24 saat önce yapılan rezervasyon iptalinde de 1 gecelik ücretin tamamı alınmaktadır. *Haber verilmeyen durumlarda tüm konaklama ücreti alınmaktadır. *Otelden erken ayrılma durumunda tüm konaklama ücreti alınmaktadır. *Haftasonları minimum 2 gece için rezervasyon kabul edilir. *Kaporaların, check-in tarihinden 14 gün önceki iptallerde tamamı, 7 gün önceki iptallerde %50’si iade edilmektedir. Sonraki iptallerde iade yapılmamaktadır. Geri ödemede oluşan banka masrafları müşterilerimize aittir. "
+                android:textColor="#4E3737"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

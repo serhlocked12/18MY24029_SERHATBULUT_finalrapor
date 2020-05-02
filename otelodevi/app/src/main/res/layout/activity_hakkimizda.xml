@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/siyah"
+    tools:context=".hakkimizda">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hakkımda:"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smart OtelTurizm A.Ş. iştiraki olup Egehan ve İzethan otelleri zincirinin bir halkası olup; profesyonel hizmet anlayışı ile Türk turizmine ve yöre halkına en iyi şekilde hizmet etmeyi prensip edinmiştir. Otelimize geldiğiniz andan itibaren kendinizi evinizde gibi hissedeceksiniz.Güleryüzlü personelimiz sizi en iyi şekilde misafir etmek için hizmetinizdedir.  Misyonumuz… Yerli ve yabancı konuklarımıza en iyi hizmeti kaliteli bir şekilde sunmaktır. Muğlamızın ve ülkemizin doğal, tarihi, kültürel miras ve değerlerini korumaya odaklı turizm amaçlı; rahat, kaliteli ve güleryüzlü hizmeti; yükselen konuk memnuniyetini sağlamak ve sürdürmek.   Her zaman “Rahatınız bizim için önemli” sloganımızla temel ilkelerimizi dikkate alarak topluma en iyi hizmeti vereceğiz.    Vizyonumuz… Yerli ve yabancı konuklarımızın ve seyahat firmalarının ilk aklına gelen bir marka olmak ve bu markayı misyonumuzu ve temel ilkelerimizi benimseyerek lider konumunda taşımaktır."
+                android:textColor="#FFFFFF"
+                android:textSize="23sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
